@@ -1,1 +1,22 @@
-{"__resolveType":"site/sections/Footer.tsx","links":[],"bottomLinks":[],"social":[],"subscribe":{}}
+{
+  "__resolveType": "site/sections/Footer.tsx",
+  "links": [],
+  "bottomLinks": [],
+  "social": [
+    {
+      "network": "Instagram",
+      "href": "https://www.instagram.com/stherzada/"
+    }
+  ],
+  "subscribe": {
+    "title": "s",
+    "description": "s",
+    "instructions": "<p>s</p>"
+  },
+  "logo": {},
+  "madeWith": {
+    "label": "s",
+    "href": "a"
+  },
+  "copyright": "a"
+}

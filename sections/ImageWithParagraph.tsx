@@ -52,11 +52,11 @@ export default function ImageWithParagraph({
           disableSpacing?.top ? "" : "pt-12 lg:pt-28"
         } ${disableSpacing?.bottom ? "" : "pb-12 lg:pb-28"}`}
       >
-        <div class="w-full md:w-1/2 border border-secondary rounded-lg overflow-hidden">
+        <div class="w-full md:w-1/2 rounded-lg overflow-hidden flex justify-center">
           <Image
             width={640}
             height={640}
-            class="object-fit z-10"
+            class="object-fit z-10 rounded-full w-96"
             sizes="(max-width: 640px) 100vw, 30vw"
             src={image}
             alt={image}
@@ -74,14 +74,14 @@ export default function ImageWithParagraph({
           <p class="leading-normal">
             {description}
           </p>
-          <div class="flex gap-3 pt-4">
+          <div class="flex pt-4">
             {cta?.map((item) => (
               <a
                 key={item?.id}
                 id={item?.id}
                 href={item?.href}
                 target={item?.href.includes("http") ? "_blank" : "_self"}
-                class={`font-normal btn btn-primary
+                class={`font-normal btn btn-primary p-1
                   ${!item.style || item.style == "Outline" && "btn-outline"}
                   ${item.style == "Ghost" && "btn-ghost"}
                 `}

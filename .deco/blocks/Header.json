@@ -1,1 +1,24 @@
-{"__resolveType":"site/sections/Header.tsx","navigation":{"links":[],"buttons":[]}}
+{
+  "__resolveType": "site/sections/Header.tsx",
+  "navigation": {
+    "links": [
+      {
+        "label": "Home"
+      },
+      {
+        "label": "About"
+      },
+      {
+        "label": "Projects"
+      },
+      {
+        "label": "Writing"
+      }
+    ],
+    "buttons": []
+  },
+  "logo": {
+    "alt": "Logo com duas letras escrito St",
+    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11850/c7dbacb8-abde-4743-9afe-10dc23b7e62d"
+  }
+}
